@@ -1,6 +1,18 @@
 
 > Open this page at [https://sam-1179.github.io/untitled/](https://sam-1179.github.io/untitled/)
 
+## Usage
+
+### ''plotAt''
+
+Use the ''plotAt'' block to render LEDs at a index location.
+
+'''blocks
+for(let i = 0; i < 25;++i) {
+    screenMajic.plotAt(i)
+    basic.pause(500)
+}
+'''
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
